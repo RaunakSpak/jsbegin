@@ -99,7 +99,7 @@ function whileLoop() {
 }
 
 
-objects 
+// objects 
 const person = {
     firstName: "Raunak",
     lastName: "Vishwakarma",

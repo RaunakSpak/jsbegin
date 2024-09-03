@@ -94,6 +94,26 @@ function whileLoop() {
     var i = 0;
     while (i < 10) {
         document.getElementById('while').innerHTML += i + ' ';
-        i++; 
+        i++;
     }
 }
+
+
+objects 
+const person = {
+    firstName: "Raunak",
+    lastName: "Vishwakarma",
+    age: 25
+};
+
+document.getElementById('demo5').innerHTML =
+    person.firstName + " " + person.lastName + " " + person.age + " ";
+
+
+
+function multi(a, b) {
+    return a * b;
+}
+
+let result = multi(34, 35);
+document.getElementById('demo5').innerHTML = result;
